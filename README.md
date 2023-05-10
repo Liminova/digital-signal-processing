@@ -30,6 +30,9 @@ Or alternatively, if you need a shell environment for the virtual environment:
 $ poetry shell
 ```
 
+Scripts are available through `pnpm` for convenience. Check the [pnpm package
+file](package.json) for more details.
+
 ## License
 
 This program is free software: you can redistribute it and/or modify
