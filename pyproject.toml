@@ -8,6 +8,9 @@ packages = [{include = "digital_signal_processing"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
+black = "^23.3.0"
+isort = "^5.12.0"
+ruff = "^0.0.265"
 
 
 [build-system]
