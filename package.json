@@ -4,8 +4,8 @@
   "scripts": {
     "postinstall": "husky install",
     "commit": "cz",
-    "test": "pipenv run python -m unittest",
-    "lint": "pipenv run black -C --extend-exclude ./test . && pipenv run ruff . --fix --show-fixes"
+    "test": "poetry run python -m unittest",
+    "lint": "poetry run black -C --extend-exclude ./test . && poetry run ruff . --fix --show-fixes"
   },
   "config": {
     "commitizen": {
