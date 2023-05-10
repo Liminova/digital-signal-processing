@@ -1,0 +1,23 @@
+{
+  "name": "digital-signal-processing",
+  "version": "0.1.0",
+  "scripts": {
+    "postinstall": "husky install",
+    "commit": "cz",
+    "test": "pipenv run python -m unittest",
+    "lint": "pipenv run black -C --extend-exclude ./test . && pipenv run ruff . --fix --show-fixes"
+  },
+  "config": {
+    "commitizen": {
+      "path": "@commitlint/cz-commitlint"
+    }
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.6.3",
+    "@commitlint/config-conventional": "^17.6.3",
+    "@commitlint/cz-commitlint": "^17.5.0",
+    "commitizen": "^4.3.0",
+    "husky": "^8.0.3",
+    "inquirer": "^8.2.5"
+  }
+}
